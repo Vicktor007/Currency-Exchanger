@@ -1,0 +1,82 @@
+2025-10-23T20:03:49.400+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 9092 (C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy)
+2025-10-23T20:03:49.406+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-23T20:03:51.283+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-23T20:03:51.370+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2025-10-23T20:03:52.429+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-23T20:03:52.466+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-23T20:03:52.466+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-23T20:03:52.612+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-23T20:03:52.615+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3063 ms
+2025-10-23T20:03:53.068+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-23T20:03:53.225+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-23T20:03:53.331+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-23T20:03:54.181+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-23T20:03:54.274+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-23T20:03:54.529+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5a205ee5
+2025-10-23T20:03:54.532+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-23T20:03:54.602+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.50.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-23T20:03:55.882+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-23T20:03:55.936+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-23T20:03:56.456+01:00  WARN 9092 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-23T20:03:56.603+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-23T20:03:58.350+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-23T20:03:58.375+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 10.28 seconds (process running for 12.435)
+2025-10-23T20:04:43.289+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-23T20:04:43.290+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-23T20:04:43.291+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-23T20:04:46.695+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ✅ Primary API: 1118.962
+2025-10-23T20:04:47.990+01:00 ERROR 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ❌ Secondary API unavailable: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/1300/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
+2025-10-23T20:04:47.991+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     :  Using single API result: 1118.962
+2025-10-23T20:09:23.407+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-23T20:09:23.417+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-23T20:09:23.422+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-23T20:09:23.424+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-23T20:09:23.426+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-23T20:09:26.842+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 1284 (C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy)
+2025-10-23T20:09:26.845+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
+2025-10-23T20:09:27.753+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-23T20:09:27.817+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2025-10-23T20:09:28.446+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-23T20:09:28.462+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-23T20:09:28.463+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-23T20:09:28.528+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-23T20:09:28.528+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1629 ms
+2025-10-23T20:09:28.715+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-23T20:09:28.800+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-23T20:09:28.845+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-23T20:09:29.214+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-23T20:09:29.252+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-23T20:09:29.390+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@775c4054
+2025-10-23T20:09:29.392+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-23T20:09:29.452+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.50.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-23T20:09:30.408+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-23T20:09:30.449+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-23T20:09:30.850+01:00  WARN 1284 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-23T20:09:30.912+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-23T20:09:31.407+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-23T20:09:31.417+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 5.328 seconds (process running for 6.685)
+2025-10-23T20:10:05.148+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-23T20:10:05.148+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-23T20:10:05.149+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-23T20:10:06.520+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ✅ Primary API: 1119.014
+2025-10-23T20:10:07.646+01:00 ERROR 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ❌ Secondary API unavailable: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/1300/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
+2025-10-23T20:10:07.647+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     :  Using single API result: 1119.014
+2025-10-23T20:10:51.083+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-23T20:10:51.090+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-23T20:10:51.093+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-23T20:10:51.094+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-23T20:10:51.097+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
