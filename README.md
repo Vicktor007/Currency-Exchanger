@@ -1,6 +1,4 @@
-**CurrencyExchanger** Java project, complete with setup instructions for IntelliJ IDEA and links to necessary libraries.
 
----
 
 ```markdown
 # 💱 CurrencyExchanger
