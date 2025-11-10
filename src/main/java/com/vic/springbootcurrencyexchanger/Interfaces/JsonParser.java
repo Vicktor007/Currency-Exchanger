@@ -10,6 +10,6 @@ import java.util.Map;
 public interface JsonParser {
     BigDecimal parseConversionRate(StringBuilder response);
     List<CurrencyRateHistory> parseConversionRateHistory(StringBuilder response, String base, String symbol);
-    Map<String, String> parseSymbols(StringBuilder response);
     List<Currency> parseCurrencies(StringBuilder response);
+
 }

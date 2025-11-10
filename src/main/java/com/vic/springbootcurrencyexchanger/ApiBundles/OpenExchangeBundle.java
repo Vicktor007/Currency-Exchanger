@@ -12,11 +12,9 @@ import org.springframework.stereotype.Component;
 public class OpenExchangeBundle implements CurrencyProviderBundle {
 
     private final OpenExchangeApiConnection openProvider;
-    private final JsonParser openExchangeParser;
 
-    public OpenExchangeBundle(OpenExchangeApiConnection openProvider, @Qualifier("openExchangeJsonParser")JsonParser openExchangeParser) {
+    public OpenExchangeBundle(OpenExchangeApiConnection openProvider) {
         this.openProvider = openProvider;
-        this.openExchangeParser = openExchangeParser;
     }
 
     @Override
@@ -24,8 +22,4 @@ public class OpenExchangeBundle implements CurrencyProviderBundle {
         return openProvider;
     }
 
-    @Override
-    public JsonParser getJsonParser() {
-        return openExchangeParser;
-    }
 }

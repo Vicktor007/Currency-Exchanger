@@ -11,11 +11,9 @@ import org.springframework.stereotype.Component;
 @Qualifier("fixerBundle")
 public class FixerBundle implements CurrencyProviderBundle {
     private final FixerApiConnection fixerProvider;
-    private final JsonParser fixerParser;
 
-    public FixerBundle(FixerApiConnection fixerProvider, @Qualifier("fixerJsonParser") JsonParser fixerParser) {
+    public FixerBundle(FixerApiConnection fixerProvider) {
         this.fixerProvider = fixerProvider;
-        this.fixerParser = fixerParser;
     }
 
     @Override
@@ -23,8 +21,4 @@ public class FixerBundle implements CurrencyProviderBundle {
         return fixerProvider;
     }
 
-    @Override
-    public JsonParser getJsonParser() {
-        return fixerParser;
-    }
 }

@@ -5,6 +5,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+import java.math.BigDecimal;
+
 
 @Entity
 public class CurrencyRates {
@@ -17,33 +19,57 @@ public class CurrencyRates {
 
     private String toCurrency;
 
-    private String rate;
+    private BigDecimal rate;
 
-    private String amountConvertedFrom;
+    private BigDecimal amountConvertedFrom;
 
-    private String amountConvertedTo;
+    private BigDecimal amountConvertedTo;
+
+    public Long getId() {
+        return id;
+    }
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getFromCurrency() {
+        return fromCurrency;
     }
 
     public void setFromCurrency(String fromCurrency) {
         this.fromCurrency = fromCurrency;
     }
 
+    public String getToCurrency() {
+        return toCurrency;
+    }
+
     public void setToCurrency(String toCurrency) {
         this.toCurrency = toCurrency;
     }
 
-    public void setRate(String rate) {
+    public BigDecimal getRate() {
+        return rate;
+    }
+
+    public void setRate(BigDecimal rate) {
         this.rate = rate;
     }
 
-    public void setAmountConvertedFrom(String amountConvertedFrom) {
+    public BigDecimal getAmountConvertedFrom() {
+        return amountConvertedFrom;
+    }
+
+    public void setAmountConvertedFrom(BigDecimal amountConvertedFrom) {
         this.amountConvertedFrom = amountConvertedFrom;
     }
 
-    public void setAmountConvertedTo(String amountConvertedTo) {
+    public BigDecimal getAmountConvertedTo() {
+        return amountConvertedTo;
+    }
+
+    public void setAmountConvertedTo(BigDecimal amountConvertedTo) {
         this.amountConvertedTo = amountConvertedTo;
     }
 }

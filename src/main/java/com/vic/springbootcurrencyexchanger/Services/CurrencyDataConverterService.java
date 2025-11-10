@@ -49,8 +49,7 @@ public class CurrencyDataConverterService implements CurrencyDataConverter {
         List<BigDecimal> results = new ArrayList<>();
 
         try {
-            StringBuilder response1 = primaryBundle.getProvider().getRate(fromCurrency, toCurrency, value);
-            BigDecimal result1 = primaryBundle.getJsonParser().parseConversionRate(response1);
+            BigDecimal result1 = primaryBundle.getProvider().getRate(fromCurrency, toCurrency, value);
             results.add(result1);
             log.info("Primary API: {}", result1);
         } catch (Exception e) {
@@ -58,8 +57,7 @@ public class CurrencyDataConverterService implements CurrencyDataConverter {
         }
 
         try {
-            StringBuilder response2 = secondaryBundle.getProvider().getRate(fromCurrency, toCurrency, value);
-            BigDecimal result2 = secondaryBundle.getJsonParser().parseConversionRate(response2);
+            BigDecimal result2 = secondaryBundle.getProvider().getRate(fromCurrency, toCurrency, value);
             results.add(result2);
             log.info("Secondary API: {}", result2);
         } catch (Exception e) {
@@ -71,27 +69,39 @@ public class CurrencyDataConverterService implements CurrencyDataConverter {
             throw new RuntimeException("All currency conversion APIs are unavailable");
         }
 
-        BigDecimal finalResult;
-        if (results.size() == 2) {
+        // Check if all results are zero and stop operation
+        boolean allZero = results.stream()
+                .allMatch(result -> result.compareTo(BigDecimal.ZERO) == 0);
 
+        if (allZero) {
+            log.error("All APIs returned zero - currency conversion failed for {}/{}", fromCurrency, toCurrency);
+            throw new RuntimeException("Currency conversion failed - all APIs returned zero");
+        }
+
+        BigDecimal finalResult;
+
+        if (results.size() == 2 &&
+                results.get(0).compareTo(BigDecimal.ZERO) != 0 &&
+                results.get(1).compareTo(BigDecimal.ZERO) != 0) {
             finalResult = results.get(0).add(results.get(1))
                     .divide(new BigDecimal("2"), 6, RoundingMode.HALF_UP);
             log.info("Using average of {} APIs: {}", results.size(), finalResult);
         } else {
-
-            finalResult = results.getFirst();
-            System.out.println("Using single API result: " + finalResult);
-            log.info(" Using single API result: {}", finalResult);
-        }
+            finalResult = results.stream()
+                    .filter(result -> result.compareTo(BigDecimal.ZERO) != 0)
+                    .findFirst()
+                    .orElseThrow(() -> new RuntimeException("Unexpected error: No valid results found"));
+                log.info("Using single valid API result: {}", finalResult);
+            }
 
         BigDecimal rate = value.divide(finalResult, 6, RoundingMode.HALF_UP);
 
         CurrencyRates newCurrencyRates = new CurrencyRates();
         newCurrencyRates.setFromCurrency(fromCurrency);
         newCurrencyRates.setToCurrency(toCurrency);
-        newCurrencyRates.setAmountConvertedFrom(value + " " + fromCurrency);
-        newCurrencyRates.setAmountConvertedTo(finalResult + " " + toCurrency);
-        newCurrencyRates.setRate("1 " + toCurrency + " = " + rate + " " + fromCurrency);
+        newCurrencyRates.setAmountConvertedFrom(value);
+        newCurrencyRates.setAmountConvertedTo(finalResult);
+        newCurrencyRates.setRate(rate);
         rateRepository.save(newCurrencyRates);
 
         return finalResult.setScale(2, RoundingMode.HALF_UP);
@@ -102,10 +112,7 @@ public class CurrencyDataConverterService implements CurrencyDataConverter {
     @Cacheable(value = "allCurrencies")
     public List<Currency> getAllCurrencies() {
         try{
-            StringBuilder response = apiProvider.getSymbolsWithSignification();
-             List<Currency> currencies = apiProvider.getActiveParser().parseCurrencies(response);
-            System.out.println(currencies);
-             return currencies;
+            return apiProvider.getSymbolsWithSignification();
         } catch (IOException | URISyntaxException e) {
             log.error("Failed to fetch currencies: {}", e.getMessage());
             throw new RuntimeException("Failed to fetch currencies: " + e.getMessage());
@@ -137,8 +144,7 @@ public class CurrencyDataConverterService implements CurrencyDataConverter {
         try {
             LocalDate today = LocalDate.now();
             LocalDate startDate = today.minusDays(duration);
-            StringBuilder response = apiProvider.getCurrencyHistory(baseCurrency, startDate, today, toCurrency );
-            return apiProvider.getActiveParser().parseConversionRateHistory(response, baseCurrency, toCurrency);
+            return apiProvider.getCurrencyHistory(baseCurrency, startDate, today, toCurrency );
         } catch (IOException | URISyntaxException e) {
             log.error("Failed to fetch currency history: {}", e.getMessage());
             throw new RuntimeException(e);

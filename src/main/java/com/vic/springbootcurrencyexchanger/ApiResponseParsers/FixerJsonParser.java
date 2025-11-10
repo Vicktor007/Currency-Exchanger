@@ -34,15 +34,7 @@ public class FixerJsonParser implements JsonParser {
         return history;
     }
 
-    @Override
-    public Map<String, String> parseSymbols(StringBuilder response) {
-        JSONObject symbols = new JSONObject(response.toString()).getJSONObject("symbols");
-        Map<String, String> symbolMap = new HashMap<>();
-        for (String key : symbols.keySet()) {
-            symbolMap.put(key, symbols.getString(key));
-        }
-        return symbolMap;
-    }
+
 
     @Override
     public List<Currency> parseCurrencies(StringBuilder response) {
@@ -50,5 +42,15 @@ public class FixerJsonParser implements JsonParser {
         return symbolMap.entrySet().stream()
                 .map(entry -> new Currency(entry.getKey(), entry.getValue()))
                 .toList();
+    }
+
+
+    private Map<String, String> parseSymbols(StringBuilder response) {
+        JSONObject symbols = new JSONObject(response.toString()).getJSONObject("symbols");
+        Map<String, String> symbolMap = new HashMap<>();
+        for (String key : symbols.keySet()) {
+            symbolMap.put(key, symbols.getString(key));
+        }
+        return symbolMap;
     }
 }

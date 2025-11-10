@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.vic</groupId>
-    <artifactId>SpringbootCurrencyExchanger</artifactId>
+    <artifactId>SpringbootCurrencyExchangerr</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SpringbootCurrencyExchanger</name>
     <description>SpringbootCurrencyExchanger</description>

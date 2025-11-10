@@ -32,3 +32,9 @@ build/
 ### VS Code ###
 .vscode/
 src/main/resources/application.properties
+currencyData.db
+identifier.sqlite
+mvnw
+.mvn
+mvnw.cmd
+logs

@@ -1,20 +1,20 @@
-2025-10-23T20:03:49.400+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 9092 (C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy)
-2025-10-23T20:03:49.406+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
-2025-10-23T20:03:51.283+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-23T20:03:51.370+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
-2025-10-23T20:03:52.429+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-10-23T20:03:52.466+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-23T20:03:52.466+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-23T20:03:52.612+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-23T20:03:52.615+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3063 ms
-2025-10-23T20:03:53.068+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-23T20:03:53.225+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-23T20:03:53.331+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-23T20:03:54.181+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-23T20:03:54.274+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-23T20:03:54.529+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5a205ee5
-2025-10-23T20:03:54.532+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-23T20:03:54.602+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-10T07:52:45.825+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 5716 (C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr)
+2025-11-10T07:52:45.848+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T07:52:47.911+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T07:52:48.221+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 283 ms. Found 1 JPA repository interface.
+2025-11-10T07:52:49.353+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T07:52:49.398+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T07:52:49.399+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T07:52:49.596+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T07:52:49.596+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3630 ms
+2025-11-10T07:52:49.988+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T07:52:50.176+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T07:52:50.297+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T07:52:51.259+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T07:52:51.367+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T07:52:51.724+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@8ef1d58
+2025-11-10T07:52:51.731+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T07:52:51.835+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 3.50.3
@@ -22,40 +22,131 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-23T20:03:55.882+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-23T20:03:55.936+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-23T20:03:56.456+01:00  WARN 9092 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-23T20:03:56.603+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-10-23T20:03:58.350+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-10-23T20:03:58.375+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 10.28 seconds (process running for 12.435)
-2025-10-23T20:04:43.289+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-23T20:04:43.290+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-23T20:04:43.291+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-23T20:04:46.695+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ✅ Primary API: 1118.962
-2025-10-23T20:04:47.990+01:00 ERROR 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ❌ Secondary API unavailable: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/1300/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
-2025-10-23T20:04:47.991+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     :  Using single API result: 1118.962
-2025-10-23T20:09:23.407+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-23T20:09:23.417+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-23T20:09:23.422+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-23T20:09:23.424+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-23T20:09:23.426+01:00  INFO 9092 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-10-23T20:09:26.842+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 1284 (C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchanger - Copy)
-2025-10-23T20:09:26.845+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
-2025-10-23T20:09:27.753+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-10-23T20:09:27.817+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
-2025-10-23T20:09:28.446+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-10-23T20:09:28.462+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-10-23T20:09:28.463+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2025-10-23T20:09:28.528+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-10-23T20:09:28.528+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1629 ms
-2025-10-23T20:09:28.715+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-10-23T20:09:28.800+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2025-10-23T20:09:28.845+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-10-23T20:09:29.214+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-10-23T20:09:29.252+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-10-23T20:09:29.390+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@775c4054
-2025-10-23T20:09:29.392+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-10-23T20:09:29.452+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-10T07:52:54.024+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T07:52:54.127+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T07:52:55.382+01:00  WARN 5716 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T07:52:55.572+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-11-10T07:52:57.071+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T07:52:57.101+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 12.619 seconds (process running for 16.614)
+2025-11-10T07:55:35.135+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T07:55:35.135+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T07:55:35.135+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-10T07:55:38.127+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.ApiConnections.FixerApiConnection  : {
+    "success": true,
+    "query": {
+        "from": "USD",
+        "to": "EUR",
+        "amount": 100
+    },
+    "info": {
+        "timestamp": 1762757707,
+        "rate": 0.86561
+    },
+    "date": "2025-11-10",
+    "result": 86.561
+}
+
+2025-11-10T07:55:38.145+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Primary API: 86.561
+2025-11-10T07:55:39.546+01:00 ERROR 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.A.OpenExchangeApiConnection        : Error getting open api url
+
+org.springframework.web.client.HttpClientErrorException$Forbidden: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/100.00/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:109) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:415) ~[spring-web-6.2.11.jar:6.2.11]
+	at com.vic.springbootcurrencyexchanger.ApiConnections.OpenExchangeApiConnection.getRate(OpenExchangeApiConnection.java:37) ~[classes/:na]
+	at com.vic.springbootcurrencyexchanger.Services.CurrencyDataConverterService.convert(CurrencyDataConverterService.java:61) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:55) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:431) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:601) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:448) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:410) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.11.jar:6.2.11]
+	at com.vic.springbootcurrencyexchanger.Services.CurrencyDataConverterService$$SpringCGLIB$$1.convert(<generated>) ~[classes/:na]
+	at com.vic.springbootcurrencyexchanger.Controllers.CurrencyController.convert(CurrencyController.java:72) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-11-10T07:55:39.568+01:00 ERROR 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Secondary API unavailable: Cannot invoke "java.lang.StringBuilder.toString()" because "response" is null
+2025-11-10T07:55:39.568+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     :  Using single API result: 86.561
+2025-11-10T07:59:55.405+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T07:59:55.422+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T07:59:55.430+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T07:59:55.432+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T07:59:55.432+01:00  INFO 5716 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T08:00:04.238+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 10020 (C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr)
+2025-11-10T08:00:04.243+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T08:00:05.968+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T08:00:06.046+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2025-11-10T08:00:06.701+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T08:00:06.719+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T08:00:06.719+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T08:00:06.787+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T08:00:06.788+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2436 ms
+2025-11-10T08:00:07.023+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T08:00:07.114+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T08:00:07.161+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T08:00:07.535+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T08:00:07.578+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T08:00:07.729+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@350342e0
+2025-11-10T08:00:07.732+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T08:00:07.795+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 3.50.3
@@ -63,20 +154,557 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-10-23T20:09:30.408+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-10-23T20:09:30.449+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-10-23T20:09:30.850+01:00  WARN 1284 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-10-23T20:09:30.912+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
-2025-10-23T20:09:31.407+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-10-23T20:09:31.417+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 5.328 seconds (process running for 6.685)
-2025-10-23T20:10:05.148+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-10-23T20:10:05.148+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-10-23T20:10:05.149+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-10-23T20:10:06.520+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ✅ Primary API: 1119.014
-2025-10-23T20:10:07.646+01:00 ERROR 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : ❌ Secondary API unavailable: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/1300/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
-2025-10-23T20:10:07.647+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     :  Using single API result: 1119.014
-2025-10-23T20:10:51.083+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-10-23T20:10:51.090+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-10-23T20:10:51.093+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-10-23T20:10:51.094+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-10-23T20:10:51.097+01:00  INFO 1284 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T08:00:09.200+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T08:00:09.243+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T08:00:09.679+01:00  WARN 10020 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T08:00:09.739+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-11-10T08:00:10.255+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T08:00:10.266+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 7.231 seconds (process running for 9.394)
+2025-11-10T08:00:27.435+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T08:00:27.441+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T08:00:27.441+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-10T08:00:29.239+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.ApiConnections.FixerApiConnection  : {
+    "success": true,
+    "query": {
+        "from": "USD",
+        "to": "EUR",
+        "amount": 100
+    },
+    "info": {
+        "timestamp": 1762758007,
+        "rate": 0.86551
+    },
+    "date": "2025-11-10",
+    "result": 86.551
+}
+
+2025-11-10T08:00:29.262+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Primary API: 86.551
+2025-11-10T08:00:30.555+01:00 ERROR 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.A.OpenExchangeApiConnection        : Error getting open api url
+
+org.springframework.web.client.HttpClientErrorException$Forbidden: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/100.00/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:109) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:415) ~[spring-web-6.2.11.jar:6.2.11]
+	at com.vic.springbootcurrencyexchanger.ApiConnections.OpenExchangeApiConnection.getRate(OpenExchangeApiConnection.java:37) ~[classes/:na]
+	at com.vic.springbootcurrencyexchanger.Services.CurrencyDataConverterService.convert(CurrencyDataConverterService.java:61) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:55) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:431) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:601) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:448) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:410) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.11.jar:6.2.11]
+	at com.vic.springbootcurrencyexchanger.Services.CurrencyDataConverterService$$SpringCGLIB$$1.convert(<generated>) ~[classes/:na]
+	at com.vic.springbootcurrencyexchanger.Controllers.CurrencyController.convert(CurrencyController.java:72) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-11-10T08:00:30.578+01:00 ERROR 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Secondary API unavailable: Cannot invoke "java.lang.StringBuilder.toString()" because "response" is null
+2025-11-10T08:00:30.578+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     :  Using single API result: 86.551
+2025-11-10T08:08:40.477+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T08:08:40.490+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T08:08:40.502+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T08:08:40.505+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T08:08:40.513+01:00  INFO 10020 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T08:08:48.178+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 6904 (C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr)
+2025-11-10T08:08:48.181+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T08:08:49.827+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T08:08:49.909+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2025-11-10T08:08:50.611+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T08:08:50.615+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T08:08:50.627+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T08:08:50.690+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T08:08:50.690+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2396 ms
+2025-11-10T08:08:50.886+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T08:08:50.949+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T08:08:50.989+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T08:08:51.306+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T08:08:51.343+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T08:08:51.502+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@416c8bb5
+2025-11-10T08:08:51.504+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T08:08:51.571+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.50.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10T08:08:52.438+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T08:08:52.483+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T08:08:52.942+01:00  WARN 6904 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T08:08:52.996+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-11-10T08:08:53.521+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T08:08:53.531+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 6.457 seconds (process running for 8.215)
+2025-11-10T08:14:16.781+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T08:14:16.783+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T08:14:16.785+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-10T08:14:18.853+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.ApiConnections.FixerApiConnection  : {
+    "success": true,
+    "query": {
+        "from": "USD",
+        "to": "EUR",
+        "amount": 100
+    },
+    "info": {
+        "timestamp": 1762758788,
+        "rate": 0.86508
+    },
+    "date": "2025-11-10",
+    "result": 86.508
+}
+
+2025-11-10T08:14:18.869+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Primary API: 86.508
+2025-11-10T08:14:20.248+01:00 ERROR 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.A.OpenExchangeApiConnection        : Error getting open api url
+
+org.springframework.web.client.HttpClientErrorException$Forbidden: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/100.00/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:109) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:415) ~[spring-web-6.2.11.jar:6.2.11]
+	at com.vic.springbootcurrencyexchanger.ApiConnections.OpenExchangeApiConnection.getRate(OpenExchangeApiConnection.java:37) ~[classes/:na]
+	at com.vic.springbootcurrencyexchanger.Services.CurrencyDataConverterService.convert(CurrencyDataConverterService.java:61) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:55) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:431) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:601) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:448) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:410) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65) ~[spring-context-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.11.jar:6.2.11]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.11.jar:6.2.11]
+	at com.vic.springbootcurrencyexchanger.Services.CurrencyDataConverterService$$SpringCGLIB$$1.convert(<generated>) ~[classes/:na]
+	at com.vic.springbootcurrencyexchanger.Controllers.CurrencyController.convert(CurrencyController.java:72) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-11-10T08:14:20.259+01:00 ERROR 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Secondary API unavailable: Cannot invoke "java.lang.StringBuilder.toString()" because "response" is null
+2025-11-10T08:14:20.264+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     :  Using single API result: 86.508
+2025-11-10T08:19:58.923+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-4] c.v.s.ApiConnections.FixerApiConnection  : {
+    "success": true,
+    "timeseries": true,
+    "start_date": "2025-11-03",
+    "end_date": "2025-11-10",
+    "base": "USD",
+    "rates": {
+        "2025-11-03": {
+            "EUR": 0.868105
+        },
+        "2025-11-04": {
+            "EUR": 0.870697
+        },
+        "2025-11-05": {
+            "EUR": 0.86984
+        },
+        "2025-11-06": {
+            "EUR": 0.86598
+        },
+        "2025-11-07": {
+            "EUR": 0.86435
+        },
+        "2025-11-08": {
+            "EUR": 0.86435
+        },
+        "2025-11-09": {
+            "EUR": 0.866365
+        },
+        "2025-11-10": {
+            "EUR": 0.86519
+        }
+    }
+}
+
+2025-11-10T08:20:24.568+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-5] c.v.s.ApiConnections.FixerApiConnection  : {
+    "success": true,
+    "timeseries": true,
+    "start_date": "2025-11-09",
+    "end_date": "2025-11-10",
+    "base": "USD",
+    "rates": {
+        "2025-11-09": {
+            "EUR": 0.866365
+        },
+        "2025-11-10": {
+            "EUR": 0.86519
+        }
+    }
+}
+
+2025-11-10T08:22:43.725+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.ApiConnections.FixerApiConnection  : {
+    "success": true,
+    "symbols": {
+        "AED": "United Arab Emirates Dirham",
+        "AFN": "Afghan Afghani",
+        "ALL": "Albanian Lek",
+        "AMD": "Armenian Dram",
+        "ANG": "Netherlands Antillean Guilder",
+        "AOA": "Angolan Kwanza",
+        "ARS": "Argentine Peso",
+        "AUD": "Australian Dollar",
+        "AWG": "Aruban Florin",
+        "AZN": "Azerbaijani Manat",
+        "BAM": "Bosnia-Herzegovina Convertible Mark",
+        "BBD": "Barbadian Dollar",
+        "BDT": "Bangladeshi Taka",
+        "BGN": "Bulgarian Lev",
+        "BHD": "Bahraini Dinar",
+        "BIF": "Burundian Franc",
+        "BMD": "Bermudan Dollar",
+        "BND": "Brunei Dollar",
+        "BOB": "Bolivian Boliviano",
+        "BRL": "Brazilian Real",
+        "BSD": "Bahamian Dollar",
+        "BTC": "Bitcoin",
+        "BTN": "Bhutanese Ngultrum",
+        "BWP": "Botswanan Pula",
+        "BYN": "New Belarusian Ruble",
+        "BYR": "Belarusian Ruble",
+        "BZD": "Belize Dollar",
+        "CAD": "Canadian Dollar",
+        "CDF": "Congolese Franc",
+        "CHF": "Swiss Franc",
+        "CLF": "Chilean Unit of Account (UF)",
+        "CLP": "Chilean Peso",
+        "CNY": "Chinese Yuan",
+        "CNH": "Chinese Yuan Offshore",
+        "COP": "Colombian Peso",
+        "CRC": "Costa Rican Col\u00f3n",
+        "CUC": "Cuban Convertible Peso",
+        "CUP": "Cuban Peso",
+        "CVE": "Cape Verdean Escudo",
+        "CZK": "Czech Republic Koruna",
+        "DJF": "Djiboutian Franc",
+        "DKK": "Danish Krone",
+        "DOP": "Dominican Peso",
+        "DZD": "Algerian Dinar",
+        "EGP": "Egyptian Pound",
+        "ERN": "Eritrean Nakfa",
+        "ETB": "Ethiopian Birr",
+        "EUR": "Euro",
+        "FJD": "Fijian Dollar",
+        "FKP": "Falkland Islands Pound",
+        "GBP": "British Pound Sterling",
+        "GEL": "Georgian Lari",
+        "GGP": "Guernsey Pound",
+        "GHS": "Ghanaian Cedi",
+        "GIP": "Gibraltar Pound",
+        "GMD": "Gambian Dalasi",
+        "GNF": "Guinean Franc",
+        "GTQ": "Guatemalan Quetzal",
+        "GYD": "Guyanaese Dollar",
+        "HKD": "Hong Kong Dollar",
+        "HNL": "Honduran Lempira",
+        "HRK": "Croatian Kuna",
+        "HTG": "Haitian Gourde",
+        "HUF": "Hungarian Forint",
+        "IDR": "Indonesian Rupiah",
+        "ILS": "Israeli New Sheqel",
+        "IMP": "Manx pound",
+        "INR": "Indian Rupee",
+        "IQD": "Iraqi Dinar",
+        "IRR": "Iranian Rial",
+        "ISK": "Icelandic Kr\u00f3na",
+        "JEP": "Jersey Pound",
+        "JMD": "Jamaican Dollar",
+        "JOD": "Jordanian Dinar",
+        "JPY": "Japanese Yen",
+        "KES": "Kenyan Shilling",
+        "KGS": "Kyrgystani Som",
+        "KHR": "Cambodian Riel",
+        "KMF": "Comorian Franc",
+        "KPW": "North Korean Won",
+        "KRW": "South Korean Won",
+        "KWD": "Kuwaiti Dinar",
+        "KYD": "Cayman Islands Dollar",
+        "KZT": "Kazakhstani Tenge",
+        "LAK": "Laotian Kip",
+        "LBP": "Lebanese Pound",
+        "LKR": "Sri Lankan Rupee",
+        "LRD": "Liberian Dollar",
+        "LSL": "Lesotho Loti",
+        "LTL": "Lithuanian Litas",
+        "LVL": "Latvian Lats",
+        "LYD": "Libyan Dinar",
+        "MAD": "Moroccan Dirham",
+        "MDL": "Moldovan Leu",
+        "MGA": "Malagasy Ariary",
+        "MKD": "Macedonian Denar",
+        "MMK": "Myanma Kyat",
+        "MNT": "Mongolian Tugrik",
+        "MOP": "Macanese Pataca",
+        "MRU": "Mauritanian Ouguiya",
+        "MUR": "Mauritian Rupee",
+        "MVR": "Maldivian Rufiyaa",
+        "MWK": "Malawian Kwacha",
+        "MXN": "Mexican Peso",
+        "MYR": "Malaysian Ringgit",
+        "MZN": "Mozambican Metical",
+        "NAD": "Namibian Dollar",
+        "NGN": "Nigerian Naira",
+        "NIO": "Nicaraguan C\u00f3rdoba",
+        "NOK": "Norwegian Krone",
+        "NPR": "Nepalese Rupee",
+        "NZD": "New Zealand Dollar",
+        "OMR": "Omani Rial",
+        "PAB": "Panamanian Balboa",
+        "PEN": "Peruvian Nuevo Sol",
+        "PGK": "Papua New Guinean Kina",
+        "PHP": "Philippine Peso",
+        "PKR": "Pakistani Rupee",
+        "PLN": "Polish Zloty",
+        "PYG": "Paraguayan Guarani",
+        "QAR": "Qatari Rial",
+        "RON": "Romanian Leu",
+        "RSD": "Serbian Dinar",
+        "RUB": "Russian Ruble",
+        "RWF": "Rwandan Franc",
+        "SAR": "Saudi Riyal",
+        "SBD": "Solomon Islands Dollar",
+        "SCR": "Seychellois Rupee",
+        "SDG": "South Sudanese Pound",
+        "SEK": "Swedish Krona",
+        "SGD": "Singapore Dollar",
+        "SHP": "Saint Helena Pound",
+        "SLE": "Sierra Leonean Leone",
+        "SLL": "Sierra Leonean Leone",
+        "SOS": "Somali Shilling",
+        "SRD": "Surinamese Dollar",
+        "STD": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Dobra",
+        "STN": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Dobra",
+        "SVC": "Salvadoran Col\u00f3n",
+        "SYP": "Syrian Pound",
+        "SZL": "Swazi Lilangeni",
+        "THB": "Thai Baht",
+        "TJS": "Tajikistani Somoni",
+        "TMT": "Turkmenistani Manat",
+        "TND": "Tunisian Dinar",
+        "TOP": "Tongan Pa\u02bbanga",
+        "TRY": "Turkish Lira",
+        "TTD": "Trinidad and Tobago Dollar",
+        "TWD": "New Taiwan Dollar",
+        "TZS": "Tanzanian Shilling",
+        "UAH": "Ukrainian Hryvnia",
+        "UGX": "Ugandan Shilling",
+        "USD": "United States Dollar",
+        "UYU": "Uruguayan Peso",
+        "UZS": "Uzbekistan Som",
+        "VES": "Sovereign Bolivar",
+        "VND": "Vietnamese Dong",
+        "VUV": "Vanuatu Vatu",
+        "WST": "Samoan Tala",
+        "XAF": "CFA Franc BEAC",
+        "XAG": "Silver (troy ounce)",
+        "XAU": "Gold (troy ounce)",
+        "XCD": "East Caribbean Dollar",
+        "XCG": "Caribbean Guilder",
+        "XDR": "Special Drawing Rights",
+        "XOF": "CFA Franc BCEAO",
+        "XPF": "CFP Franc",
+        "YER": "Yemeni Rial",
+        "ZAR": "South African Rand",
+        "ZMK": "Zambian Kwacha (pre-2013)",
+        "ZMW": "Zambian Kwacha",
+        "ZWL": "Zimbabwean Dollar"
+    }
+}
+
+2025-11-10T09:58:25.942+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T09:58:25.958+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T09:58:25.974+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T09:58:25.974+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T09:58:25.990+01:00  INFO 6904 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T10:31:04.797+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 14396 (C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr)
+2025-11-10T10:31:04.801+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T10:31:05.636+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T10:31:05.695+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2025-11-10T10:31:06.286+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T10:31:06.301+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T10:31:06.302+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T10:31:06.365+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T10:31:06.366+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1503 ms
+2025-11-10T10:31:06.562+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T10:31:06.637+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T10:31:06.680+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T10:31:07.010+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T10:31:07.049+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T10:31:07.189+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@248b2b61
+2025-11-10T10:31:07.192+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T10:31:07.249+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.50.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10T10:31:08.279+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T10:31:08.368+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T10:31:08.807+01:00  WARN 14396 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T10:31:08.857+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-11-10T10:31:09.345+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T10:31:09.357+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 5.384 seconds (process running for 6.589)
+2025-11-10T10:31:20.927+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T10:31:20.928+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T10:31:20.929+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-10T10:32:16.247+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-7] c.v.s.S.CurrencyDataConverterService     : Primary API: 86.444
+2025-11-10T10:32:17.184+01:00 ERROR 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-7] c.v.s.A.OpenExchangeApiConnection        : Failed to getRate - Context: from=USD, to=EUR, amount=100.00 - Error: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/100.00/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
+2025-11-10T10:32:17.184+01:00  WARN 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-7] c.v.s.A.OpenExchangeApiConnection        : Returning default rate due to API failure
+2025-11-10T10:32:17.184+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-7] c.v.s.S.CurrencyDataConverterService     : Secondary API: 0
+2025-11-10T10:32:17.184+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-7] c.v.s.S.CurrencyDataConverterService     : Using average of 2 APIs: 43.222000
+2025-11-10T10:54:42.945+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T10:54:42.954+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T10:54:42.954+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T10:54:42.954+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T10:54:42.970+01:00  INFO 14396 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-10T10:54:48.611+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Starting SpringbootCurrencyExchangerApplication using Java 21.0.6 with PID 6996 (C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr\target\classes started by vickt in C:\Users\vickt\Desktop\SpringbootCurrencyExchangerr)
+2025-11-10T10:54:48.614+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : No active profile set, falling back to 1 default profile: "default"
+2025-11-10T10:54:49.431+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-10T10:54:49.489+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+2025-11-10T10:54:50.002+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-10T10:54:50.015+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-10T10:54:50.015+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-10T10:54:50.067+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-10T10:54:50.067+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1397 ms
+2025-11-10T10:54:50.254+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-10T10:54:50.310+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-10T10:54:50.352+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-10T10:54:50.649+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-10T10:54:50.684+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-10T10:54:50.812+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@7be7c052
+2025-11-10T10:54:50.814+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-10T10:54:50.853+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 3.50.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-10T10:54:51.644+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-10T10:54:51.680+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T10:54:52.071+01:00  WARN 6996 --- [SpringbootCurrencyExchanger] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-10T10:54:52.119+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-11-10T10:54:52.629+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-10T10:54:52.633+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [main] s.SpringbootCurrencyExchangerApplication : Started SpringbootCurrencyExchangerApplication in 4.703 seconds (process running for 5.798)
+2025-11-10T10:55:02.780+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-10T10:55:02.781+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-10T10:55:02.782+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-10T10:55:07.423+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Primary API: 86.427
+2025-11-10T10:55:08.545+01:00 ERROR 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.A.OpenExchangeApiConnection        : Failed to getRate - Context: from=USD, to=EUR, amount=100.00 - Error: 403 Forbidden on GET request for "https://openexchangerates.org/api/convert/100.00/USD/EUR": "{"error":true,"status":403,"message":"not_allowed","description":"Single-currency Conversion API not available with this App ID - please contact support@openexchangerates.org to upgrade your account."}<EOL>"
+2025-11-10T10:55:08.545+01:00  WARN 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.A.OpenExchangeApiConnection        : Returning default rate due to API failure
+2025-11-10T10:55:08.545+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Secondary API: 0
+2025-11-10T10:55:08.546+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [http-nio-8080-exec-1] c.v.s.S.CurrencyDataConverterService     : Using single valid API result: 86.427
+2025-11-10T10:55:22.812+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-10T10:55:22.828+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-10T10:55:22.832+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-10T10:55:22.834+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-10T10:55:22.834+01:00  INFO 6996 --- [SpringbootCurrencyExchanger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
